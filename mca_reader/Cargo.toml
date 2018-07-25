@@ -1,0 +1,6 @@
+[package]
+name = "mca_reader"
+version = "0.1.0"
+authors = ["NilsHochschwender <wetw55@gmail.com>"]
+
+[dependencies]
