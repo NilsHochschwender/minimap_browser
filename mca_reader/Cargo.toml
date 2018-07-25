@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["NilsHochschwender <wetw55@gmail.com>"]
 
 [dependencies]
+libflate = "0.1.16"
