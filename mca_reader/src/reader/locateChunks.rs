@@ -28,7 +28,11 @@ impl Timestamp {
 			timestamp: u32::from_be(u32::from_bytes(bytes)),
 		}
 	}
+	pub fn is_newer(&self, newer: Timestamp) -> bool {
+		self.timestamp < newer.timestamp
+	}
 }
+
 
 //substruct for chunkdata
 pub struct ChunkData {
@@ -61,7 +65,9 @@ pub struct Chunk {
 	timestamp: Timestamp,
 	data: Option<ChunkData>,
 }
-r
+impl Chunk {
+	
+}
 
 struct Chunks {
 	vec
