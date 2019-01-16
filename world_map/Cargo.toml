@@ -4,3 +4,4 @@ version = "0.1.0"
 authors = ["BuildTools <unconfigured@null.spigotmc.org>"]
 
 [dependencies]
+libflate = "0.1.16"
